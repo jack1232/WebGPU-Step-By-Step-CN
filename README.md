@@ -1,56 +1,53 @@
-# WebGPU Graphics Programming: Step-by-Step 
+# WebGPU 图形编程 免费视频教程 
 
-WebGPU is the next-generation graphics API and future web standard for graphics and compute, aiming to provide modern 3D graphics and 
-computation capabilities with the GPU acceleration. To help you be familiar with this new graphics API and able to build your WebGPU 
-applications, I will create a YouTube video series about WebGPU programming and discuss an easy-to-follow WebGPU application in each video episode. 
-This repository contains all the code examples used in the YouTube video series.
+WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的目标是提供带有 GPU 加速功能的现代三维图形和计算。为了帮助你熟悉这个新的图形 API 并能够利用它开发
+WebGPU 应用，我计划制作一个关于 WebGPU 编程的 YouTube 视频系列。在每一期视频中，我们将详细讨论一个容易理解的 WebGPU 应用程序。这个存储库中将包括 YouTube 视频
+系列中所使用的范例的所有原代码。 
 
-The YouTube video series uses the real-world sample apps to explain the WebGPU basics, shader program, GPU buffer, and rendering pipeline. 
-From this video series, you will learn how to create primitives and simple objects in WebGPU. As you gradually progress through the video series, 
-you will get to grips with advanced WebGPU topics, including 3D transformation, lighting calculation, colormaps, and textures. At the same time, 
-you will learn how to create advanced 3D WebGPU objects, including various 3D wireframes, 3D shapes, simple and parametric 3D surfaces with 
-colormaps and textures, as well as 3D surface plots and fractal graphics described by complex functions. In addition, you will explore new 
-WebGPU features, such as compute shader and storage buffer, and how to use them to simulate large particle systems.
+在这个 YouTube 视频系列中，我们将用现实的范例应用程序来阐述 WebGPU 的基础知识，着色器程序，GPU 缓冲区，以及渲染管道。从这个视频系列中， 你将能够学到如何在 WebGPU
+中创建基元和简单的图形。随着你通过这个视频系列的学习， 你将逐步掌握 WebGPU 的各种高等技能，其中包括三维变换，光计算，色彩调配和纹理匹配。同时， 你还将学习如何构建
+高级的三维 WebGPU 物体, 其中包括三维线框， 三维形状，简单和参数化三维曲面，以及由复函数描述的三维曲面图和分形图形。此外，我们还将探索新的 WebGPU 功能，比如计算
+着色器和存储缓冲区，以及如何使用它们来模拟大型粒子系统。
 
-By the end of this video series, you will have the skill you need to build your own GPU-accelerated graphics and computing on the web with the WebGPU API.   
+在看完本视频系列后，你将具备使用 WebGPU API 在网络上构建自己的具有 GPU 加速功能的图形和计算所需的各种技能。   
 
-## Sample Objects 
-Here are some sample objects created using the WebGPU API, which I will discussed in my video series.
+## 实例
+以下是一些使用 WebGPU API 构建的图形实例。我会在我的视频里详细讲解和讨论这些例子。
 
-### Klein Bottle created using WebGPU:
+### Klein 瓶子:
 ![klein-bottle](assets/klein-bottle.png)
 
-### Wellenkugel Surface created using WebGPU:  
+### Wellenkugel三维曲面:  
 ![wellenkugel](assets/wellenkugel.png) 
 
-### 3D Sinc Surface created using WebGPU:
+### 3D Sinc 曲面:
 ![sinc](assets/sinc.png) 
 
-### Multiple-Textures created using WebGPU:
+### 具有多重纹理的三维立方体:
 ![textures](assets/textures.png) 
 
-### Multiple Objects on a Scene created using WebGPU:
+### 多个物体在一个场景中:
 ![nultiple-objects](assets/multiple-objects.png) 
 
-### 3D Surface Plots for Complex Functions created using WebGPU:
+### 复函数三维表面图:
 ![complex-surface](assets/complex-surface.png) 
 
-### Another Surface Plot for Complex Function:
+### 另一个复函数三维表面图:
 ![complex-surface1](assets/complex-surface1.png) 
 
-## Building
+## 应用的构建
 
-This repository organizes all samples with the git submodules. The sample apps are built with TypeScript and bundled using WebPack. Building the apps requires an installation of Node.js.
+本存储库使用 git 子模块安排所有示例。这些示例应用程序使用TypeScript构建，并使用 WebPack 捆绑。 构建应用程序需要安装Node.js。
 
-The following steps shows how to run the sample apps:
+你可按照以下步骤运行示例应用:
 
-* Click on the link for the sample app that you are interested.
-* Clone or download it to your local machine.
-* Install dependencies with the command: **npm install**.
-* Compile and bundle the app with the command: **npm run dev**, **npm run prod**, or **npm run watch**.
-* Run the live-server from VS-Code and then navigate to **http://localhost:5500** or **http://127.0.0.1:5500** to view the app.
+* 点击您感兴趣的示例应用的链接.
+* 将应用实例克隆或下载到本地计算机上.
+* 使用以下命令安装依赖项: **npm install**.
+* 使用以下命令编译并捆绑应用: **npm run dev**, **npm run prod**, 或 **npm run watch**.
+* 从VS-Code中运行实时服务器，然后用浏览器导航到 **http://localhost:5500** 或 **http://127.0.0.1:5500** 去查看应用示例.
 
-## License
+## 许可 (License)
 
 The MIT License (MIT).
 
