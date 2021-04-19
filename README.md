@@ -1,4 +1,4 @@
-# WebGPU 图形编程 免费视频教程 
+# WebGPU 图形编程免费视频教程 
 
 WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的目标是提供带有 GPU 加速功能的现代三维图形和计算。为了帮助你熟悉这个新的图形 API 并能够利用它开发
 WebGPU 应用，我计划制作一个关于 WebGPU 编程的 YouTube 视频系列。在每一期视频中，我们将详细讨论一个容易理解的 WebGPU 应用程序。这个存储库中将包括 YouTube 视频
@@ -17,7 +17,7 @@ WebGPU 应用，我计划制作一个关于 WebGPU 编程的 YouTube 视频系�
 ### Klein 瓶子:
 ![klein-bottle](assets/klein-bottle.png)
 
-### Wellenkugel三维曲面:  
+### Wellenkugel 三维曲面:  
 ![wellenkugel](assets/wellenkugel.png) 
 
 ### 3D Sinc 曲面:
