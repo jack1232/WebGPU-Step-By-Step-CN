@@ -6,7 +6,7 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 
 在看完本视频系列后，你将具备使用 WebGPU API 在网络上构建自己的具有 GPU 加速功能的图形和计算所需的各种技能。 
 
-在这个视频系列中所用到的例子大部分取自我最近出版的新书 “Practical WebGPU Graphics".详情可见 https://drxudotnet.com or https://book.gincker.com.  
+在这个视频系列中所用到的例子大部分取自我最近出版的新书 “Practical WebGPU Graphics". 详情可见 https://drxudotnet.com or https://book.gincker.com.  
 
 ## Youtube 视频链接
 
