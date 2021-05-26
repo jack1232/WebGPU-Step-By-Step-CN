@@ -14,6 +14,7 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 2. 构建一个单色三角形： **https://youtu.be/SMzw0XH83CA**
 3. 构建一个具有不同颜色的三角形：**https://youtu.be/JECieX8_v1Y**
 4. 用GLSL着色器构建一个具有不同颜色的三角形： **https://youtu.be/0-h2_l1sYEU**
+5. 构建点和线图元：**https://youtu.be/Uv3QWE7bmQU**
 
 ## 实例
 以下是一些使用 WebGPU API 构建的图形实例。我会在我的视频里详细讲解和讨论这些例子。
