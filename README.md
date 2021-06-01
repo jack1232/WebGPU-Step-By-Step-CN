@@ -53,6 +53,10 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 * 使用以下命令编译并捆绑应用: **npm run dev**, **npm run prod**, 或 **npm run watch**.
 * 从VS-Code中运行实时服务器，然后用浏览器导航到 **http://localhost:5500** 或 **http://127.0.0.1:5500** 去查看应用示例.
 
+## 代码更新
+
+最近，Chrome Canary 对 WebGPU API 进行了一些更改：它不再支持旧的渲染管线格式。 在第二，第三，和第四期的 WebGPU 视频的例子中，我们使用了旧的渲染管线格式。 现在，我已对代码进行了更新。即在渲染管线中，用 vertex 和 fragment 替换旧的 vertexStage 和 fragmentStage。 然后，将 colorState 属性去掉， 再把 target 这个新属性添加到 fragment 上。
+
 ## 许可 (License)
 
 The MIT License (MIT).
