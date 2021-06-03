@@ -15,6 +15,7 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 3. 构建一个具有不同颜色的三角形：**https://youtu.be/JECieX8_v1Y**
 4. 用GLSL着色器构建一个具有不同颜色的三角形： **https://youtu.be/0-h2_l1sYEU**
 5. 构建点和线图元：**https://youtu.be/Uv3QWE7bmQU**
+6. 构建三角形图元： **https://youtu.be/1JMHg8BgWTY**
 
 ## 实例
 以下是一些使用 WebGPU API 构建的图形实例。我会在我的视频里详细讲解和讨论这些例子。
@@ -55,7 +56,9 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 
 ## 代码更新
 
-最近，Chrome Canary 对 WebGPU API 进行了一些更改：它不再支持旧的渲染管线格式。 在第二，第三，和第四期的 WebGPU 视频的例子中，我们使用了旧的渲染管线格式。 现在，我已对代码进行了更新。即在渲染管线中，用 vertex 和 fragment 替换旧的 vertexStage 和 fragmentStage。 然后，将 colorState 属性去掉， 再把 target 这个新属性添加到 fragment 上。
+最近，Chrome Canary 对 WebGPU API 进行了一些更改：它不再支持旧的渲染管线格式和旧的WGSL代码。 在第二，第三，和第四期的 WebGPU 视频的例子中，我们使用了旧的渲染管线格式。 现在，我已对代码进行了更新。即在渲染管线中，用 vertex 和 fragment 替换旧的 vertexStage 和 fragmentStage。 然后，将 colorState 属性去掉， 再把 target 这个新属性添加到 fragment 上。
+
+对于我们的 WebGPU 视频系列 (2) -(10)（使用 GLSL 着色器的 第四期视频除外），我们使用了旧的 WGSL 着色器代码。 为了顺利运行应用实例，我使用新的类似 Rust 的格式更新了 WGSL 着色器代码。 为了进行比较，我还包括了名为 ShadersOld 的旧着色器方法。
 
 ## 许可 (License)
 
