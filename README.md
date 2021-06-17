@@ -10,6 +10,7 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 
 ## Youtube 视频链接
 
+0. 代码更新： **https://youtu.be/ejYNf9J4PfM**
 1. 建立开发环境： **https://youtu.be/wT8IGK0KA1E**
 2. 构建一个单色三角形： **https://youtu.be/SMzw0XH83CA**
 3. 构建一个具有不同颜色的三角形：**https://youtu.be/JECieX8_v1Y**
