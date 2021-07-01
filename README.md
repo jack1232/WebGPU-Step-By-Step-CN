@@ -10,7 +10,8 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 
 ## Youtube 视频链接
 
-0. 代码更新： **https://youtu.be/ejYNf9J4PfM**
+### 视频教学系列
+
 1. 建立开发环境： **https://youtu.be/wT8IGK0KA1E**
 2. 构建一个单色三角形： **https://youtu.be/SMzw0XH83CA**
 3. 构建一个具有不同颜色的三角形：**https://youtu.be/JECieX8_v1Y**
@@ -21,6 +22,12 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 8. 用单一GPU缓冲区构建一个彩色的正方形： **https://youtu.be/2obw3iTgwqA**
 9. 用Index GPU缓冲区构建一个彩色的正方形： **https://youtu.be/LzHM2sZKRuA** 
 10. 构建具有不同表面颜色的三维立方体: **https://youtu.be/UHe4cO3iWEQ**
+
+### 代码更新
+
+1. 代码更新 1：https://youtu.be/ejYNf9J4PfM
+2. 代码更新 2：https://youtu.be/yTkGXYlIjEw
+3. 代码更新 3：https://youtu.be/NJ-Dr0eeTaU
 
 ## 实例
 以下是一些使用 WebGPU API 构建的图形实例。我会在我的视频里详细讲解和讨论这些例子。
