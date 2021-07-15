@@ -23,6 +23,7 @@ WebGPU 是下一代图形 API 以及未来图形和计算的网络标准. 它的
 9. 用Index GPU缓冲区构建一个彩色的正方形： https://youtu.be/LzHM2sZKRuA
 10. 构建具有不同表面颜色的三维立方体: https://youtu.be/UHe4cO3iWEQ
 11. 三维立方体：动画及相机控制：https://youtu.be/URFyO1bm1Bs
+12. 构建具有不同顶点颜色的三维立方体: https://youtu.be/YJJ4Z_16ORg 
 
 ### 代码更新视频系列
 
